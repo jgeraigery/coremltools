@@ -721,7 +721,7 @@ jobs:
   install-classic:
     name: "🐍 3.7 • Debian • x86 •  Install"
     runs-on: ubuntu-latest
-    container: i386/debian:buster
+    container: i386/debian:buster-20240612
 
     steps:
     - uses: actions/checkout@v1  # v1 is required to run inside docker
