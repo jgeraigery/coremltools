@@ -35,9 +35,9 @@ def protobuf_deps():
     if not native.existing_rule("rules_java"):
         http_archive(
             name = "rules_java",
-            sha256 = "f5a3e477e579231fca27bf202bb0e8fbe4fc6339d63b38ccb87c2760b533d1c3",
-            strip_prefix = "rules_java-981f06c3d2bd10225e85209904090eb7b5fb26bd",
-            urls = ["https://github.com/bazelbuild/rules_java/archive/981f06c3d2bd10225e85209904090eb7b5fb26bd.tar.gz"],
+            sha256 = "babab465220b435b17d15862a44ddc51ef1eeebbbdec69a5034006e9902cae89",
+            strip_prefix = "rules_java-5e5d1e7705210f6433fd1436f7c6c3924f5d0747",
+            urls = ["https://github.com/bazelbuild/rules_java/archive/5e5d1e7705210f6433fd1436f7c6c3924f5d0747.tar.gz"],
         )
 
     if not native.existing_rule("rules_proto"):
